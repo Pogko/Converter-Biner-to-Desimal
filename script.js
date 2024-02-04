@@ -13,7 +13,8 @@ function binerToDesimal() {
 }
 
 function isValidInput(biner, pengali) {
-  return /^[01]+$/.test(biner) && Number.isInteger(pengali) && pengali > 1;
+  // Menggunakan regex untuk memastikan hanya mengandung angka dan karakter lain
+  return /^[0-9]+$/.test(biner) && Number.isInteger(pengali) && pengali > 1;
 }
 
 function calculateTotal(biner, pengali) {
