@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.steps {
+  margin-top: 30px; /* Sesuaikan nilai margin-top sesuai keinginan Anda */
+}
+
+h1 {
+  color: #333333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2672af;
+}
+
+
+#conversionSteps {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#decimalOutput {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #27ae60;
+  font-size: 18px;
+}
+
+.blue-background {
+  background-color: #AfEEEE;
+  padding: 5px;
+  color: black;
+}
+
+.bold-text {
+  font-weight: bold;
+}
