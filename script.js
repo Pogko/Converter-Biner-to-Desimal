@@ -44,7 +44,7 @@ function displayResults(biner, pengali, total) {
   // Menambahkan kelas 'blue-background' pada elemen hasilTotal
   langkahFormula.classList.add("blue-background");
   langkahCalculation.classList.add("blue-background");
-  hasilTotal.classList.add("blue-background", "bold-text");
+  hasilTotal.classList.add("blue-background");
 
   steps.classList.remove("hidden");
 }
