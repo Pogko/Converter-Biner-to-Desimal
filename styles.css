@@ -78,14 +78,10 @@ button:hover {
 
 .blue-background {
   background-color: #AfEEEE;
-  padding: 5px;
+  padding: 6px;
   color: black;
 }
 
 .bold-text {
   font-weight: bold;
-}
-
-.font-bold {
-    font-weight: bold;
 }
